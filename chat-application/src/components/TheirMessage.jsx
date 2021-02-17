@@ -24,9 +24,8 @@ function TheirMessage({ lastMessage, message }) {
           className="message"
           style={{
             float: "left",
-            marginRight: "18px",
-            color: "white",
-            backgroundColor: "#3B2A50",
+            backgroundColor: "#CABCDC",
+            marginLeft: isFirstMessageByUser ? "4px" : "48px",
           }}
         >
           {message.text}
